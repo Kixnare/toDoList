@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background-color: #f3f3f3;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.header {
+    width: 90%;
+    margin: 40px auto 5px;
+}
+
+.header__text {
+    font-size: 32px;
+}
+
+.section {
+    width: 90%;
+    background-color: #fff;
+}
+
+.section__header {
+    padding: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+}
